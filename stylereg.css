@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fff8de;
+}
+
+.box-area {
+  width: 900px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 125px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+.box-border {
+  border: 2px solid #d7d5d5;
+  border-radius: 20px;
+}
+
+header {
+  background-color: #2d6133;
+  margin-bottom: 50px;
+  position: absolute;
+  height: 90px;
+  width: 100%;
+}
+
+.logoheader-container {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 16px;
+  left: 100px;
+  transform: translateX(-50%);
+}
+
+.logoheader-img {
+  max-height: 120px;
+  max-width: 120px;
+  object-fit: contain;
+}
+
+.cubeheader-text {
+  font-weight: 700;
+  color: white;
+  font-size: 30px;
+  margin-left: -285px;
+  margin-bottom: 8px;
+}
+
+.log-button {
+  background-color: #2d6133;
+  border-color: #2d6133;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 200px;
+  position: relative;
+}
+
+.log-button:hover {
+  background-color: #4a9254;
+}
+
+.register-button {
+  background-color: #2d6133;
+  border-color: #2d6133;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-right: -80px;
+  font-weight: bold;
+  position: relative;
+}
+
+.register-button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.register-button:hover {
+  background-color: #2d6133;
+}
+
+.login-button::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: calc(100% - 200px);
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.right-box {
+  padding: 40px 30px 40px 40px;
+}
+
+.grid-item {
+  padding: 10px;
+  color: white;
+}
+
+.cube-text {
+  font-weight: 700;
+  color: white;
+  font-size: 25px;
+  margin-left: -230px;
+  margin-top: 3px;
+}
+
+.register-text .title-register {
+  color: #2d6133;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+
+.text-container {
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 30px;
+  align-items: center;
+  position: absolute;
+  top: 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.info-input {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.lastname {
+  margin-left: -20px;
+  width: 110%;
+}
+
+.firstname {
+  margin-left: -10px;
+  width: 108%;
+}
+
+.middlename {
+  margin-left: -5px;
+  width: 102%;
+}
+
+.birthdate[type="date"] {
+  margin-left: -20px;
+  width: 470px;
+}
+
+.gender {
+  margin-left: 180px;
+  width: 360px;
+}
+
+.username {
+  margin-left: -20px;
+  width: 300px;
+}
+
+.password {
+  margin-left: -20px;
+  width: 300px;
+}
+
+.confirm-password {
+  margin-left: -20px;
+  width: 300px;
+}
+
+.reg-btn {
+  background-color: #2d6133;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  width: 180px;
+  height: 45px;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.reg-btn:hover {
+  background-color: #4a9254;
+  color: #fff;
+}
+
+.right-box {
+  padding: 20px;
+}
+
+.register-text .title-register {
+  margin-top: 0;
+}
