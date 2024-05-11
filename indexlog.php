@@ -28,7 +28,7 @@
                     <div class="featured-image mb-3">
                       <div class="logoheader-container">
                         <img
-                          src="logoimage.png"
+                          src="logoito.png"
                           class="img-fluid logoheader-img"
                           alt="Logo"
                         />
@@ -40,8 +40,8 @@
             </div>
           </div>
           <div class="col-md-6 text-end">
-            <a href="indexlog.html" class="btn log-button">Login</a>
-            <a href="indexreg.html" class="btn register-button">Register</a>
+            <a href="indexlog.php" class="btn log-button">Login</a>
+            <a href="indexreg.php" class="btn register-button">Register</a>
           </div>
         </div>
       </div>
@@ -58,31 +58,32 @@
         >
           <div class="featured-image mb-3">
             <img
-              src="logoimage.png"
+              src="juancafe.png"
               class="img-fluid"
               style="width: 230px"
             />
           </div>
         </div>
-
+      
         <div class="col-md-6 right-box">
           <div class="row align-items-center">
             <div class="header-text mb-4">
               <h2 class="title-h2">WELCOME GUEST!</h2>
             </div>
           </div>
+          <form action="">
           <div class="input-group mb-3">
             <input
-              type="text"
+              type="email"
               class="form-control form-control-lg bg-light fs-6 custom-input"
-              placeholder="Email address"
+              placeholder="Email address" name ="email" required
             />
           </div>
           <div class="input-group mb-1">
             <input
               type="password"
               class="form-control form-control-lg bg-light fs-6 custom-input"
-              placeholder="Password"
+              placeholder="Password" name="password" required
             />
           </div>
           <div class="input-group mb-5 d-flex justify-content-between check-box">
@@ -98,8 +99,9 @@
             </div>
           </div>
           <div class="input-group mb-3 custom-input-group text-center">
-            <a href="indexhome.html" class="btn btn-lg fs-6 login-button">Login</a>
-          </div>          
+            <input type="submit" class="btn btn-lg fs-6 login-button" name="login" value="Login">
+          </div>   
+          </form>       
           </div>
         </div>
       </div>

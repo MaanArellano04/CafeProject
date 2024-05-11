@@ -10,11 +10,11 @@ body {
   background-size: cover;
   background-position: center;
   margin-top: 70px;
-  background-image: url("bgleftbox.png");
+  background-image: url("bglbox.png");
 }
 
 header {
-  background-color: #2d6133;
+  background-color: #2B1A08;
   margin-bottom: 50px;
   position: absolute;
   height: 90px;
@@ -47,8 +47,8 @@ header {
 }
 
 .log-button {
-  background-color: #2d6133;
-  border-color: #2d6133;
+  background-color: #C5A888;
+  border-color: #C5A888;
   color: #fff;
   margin-top: 10px;
   margin-left: 200px;
@@ -68,12 +68,12 @@ header {
 }
 
 .log-button:hover {
-  background-color: #4a9254;
+  background-color: #2B1A08;
 }
 
 .register-button {
-  background-color: #2d6133;
-  border-color: #2d6133;
+  background-color: #C5A888;
+  border-color: #C5A888;
   color: #fffcfc;
   margin-top: 10px;
   margin-right: -80px;
@@ -98,12 +98,12 @@ header {
 }
 
 .left-box {
-  background: #2d6133;
+  background: #2B1A08;
   border-radius: 50%;
 }
 
 .title-h2 {
-  color: #2d6133;
+  color: #2B1A08;
   font-size: 30px;
   font-weight: 500;
 }
@@ -134,7 +134,7 @@ header {
 }
 
 .login-button {
-  background-color: #2d6133;
+  background-color: #2B1A08;
   color: #ffffff;
   border: none;
   border-radius: 8px;
@@ -145,7 +145,7 @@ header {
 }
 
 .login-button:hover {
-  background-color: #4a9254;
+  background-color: #3C280D;
 }
 
 .title-small {

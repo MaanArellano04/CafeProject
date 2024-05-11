@@ -21,7 +21,7 @@ body {
 }
 
 header {
-  background-color: #2d6133;
+  background-color: #2B1A08;
   margin-bottom: 50px;
   position: absolute;
   height: 90px;
@@ -117,7 +117,7 @@ header {
 }
 
 .register-text .title-register {
-  color: #2d6133;
+  color: #2B1A08;
   font-size: 30px;
   font-weight: 500;
   margin-top: -20px;
@@ -182,7 +182,7 @@ header {
 }
 
 .reg-btn {
-  background-color: #2d6133;
+  background-color: #2B1A08;
   color: #ffffff;
   border: none;
   border-radius: 5px;
@@ -196,7 +196,7 @@ header {
 }
 
 .reg-btn:hover {
-  background-color: #4a9254;
+  background-color: rgb(110, 61, 31);
   color: #fff;
 }
 
