@@ -113,7 +113,7 @@
         }
         .logo {
             text-align: center;
-            padding: 20px;
+            padding: 5px;
             color: #2B1A08;
             font-size: 2em;
             background-color: #F4F1E8;
@@ -163,10 +163,9 @@
     <div class="sidebar w-30">
         <div class="sidebar-sticky">
         <div class="d-flex flex-column flex-shrink-0 p-3 text-light" style="width: 200px;">
-    <!-- <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-Ligt text-decoration-none">
-      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-      <span class="fs-4">Sidebar</span>
-    </a> -->
+    
+      <span class="fs-4 text-light text-center">MENU</span>
+    </a> 
     <hr>
     <ul class="nav nav-pills flex-column mb-auto align-items-right">
 
@@ -205,7 +204,7 @@
         <div class="dropdown ">
             <a href="#" class="d-flex align-items-center link-light text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="idpicusername.jpg" alt="" width="32" height="32" class="rounded-circle me-2">
-                <strong>mdo</strong>
+                <strong>Juan Cafe</strong>
             </a>
             <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
                 <li><a class="dropdown-item" href="#">New project...</a></li>

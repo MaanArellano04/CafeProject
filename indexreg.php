@@ -12,32 +12,7 @@
 </head>
 
 <body>
-  <header class="container-fluid py-3 fixed-top">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6 d-flex justify-content-center align-items-center">
-          <div class="top-box">
-            <div class="row">
-              <div class="col-4">
-                <div class="grid-item">
-                  <div class="featured-image mb-3">
-                    <div class="logoheader-container">
-                      <img src="logoito.png" class="img-fluid logoheader-img" alt="Logo" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 text-end">
-          <a href="indexlog.php" class="btn log-button">Login</a>
-          <a href="indexreg.php" class="btn register-button">Register</a>
-        </div>
-      </div>
-    </div>
-  </header>
-
+  
   <div class="container d-flex justify-content-center align-items-center min-vh-100">
     <div class="row box-border bg-white shadow box-area">
       <div class="col-md-12 right-box">
@@ -88,6 +63,8 @@
 
           <div class="d-grid gap-2">
             <input type="submit" href="indexlog.php" class="btn btn-login btn-lg reg-btn" role="button" name="submit">
+
+            <a href="indexlog.php" class="btn log-button">Already Have an Account? Login</a>
         </form>
       </div>
     </div>

@@ -14,38 +14,6 @@
   </head>
   <body>
 
-    <header class="container-fluid py-3 fixed-top">
-
-      <div class="container">
-        <div class="row align-items-center">
-          <div
-            class="col-md-6 d-flex justify-content-center align-items-center"
-          >
-            <div class="top-box">
-              <div class="row">
-                <div class="col-4">
-                  <div class="grid-item">
-                    <div class="featured-image mb-3">
-                      <div class="logoheader-container">
-                        <img
-                          src="logoito.png"
-                          class="img-fluid logoheader-img"
-                          alt="Logo"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 text-end">
-            <a href="indexlog.php" class="btn log-button">Login</a>
-            <a href="indexreg.php" class="btn register-button">Register</a>
-          </div>
-        </div>
-      </div>
-    </header>
 
     <div
       class="container d-flex justify-content-center align-items-center min-vh-100"
@@ -100,6 +68,10 @@
           </div>
           <div class="input-group mb-3 custom-input-group text-center">
             <input type="submit" class="btn btn-lg fs-6 login-button" name="login" value="Login">
+          </div>
+          <div class="text-center">
+            <!-- <a href="indexlog.php" class="log-button">Login</a> -->
+            <a href="indexreg.php" class="register-button">Register</a>
           </div>   
           </form>       
           </div>
